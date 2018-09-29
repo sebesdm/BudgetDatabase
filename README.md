@@ -89,12 +89,12 @@ This stored procedure will take a year and month as input and do all the process
 | Grocery             | -250          | -300     | 0        | 0                | -300           |
 
 This data set essentially reads like:
-- For <TransactionCategory>
-- You have spent <CurrentAmount> so far this month
-- And you have budgeted <Budgeted> for the category
-- And from the previous months you rolled over <Rollover> amount
-- And have adjusted the category by <BudgetAdjustment>
-- Leaving you with a total amount allowed for this category this month of <FinalAllowance>
+- For [TransactionCategory]
+- You have spent [CurrentAmount] so far this month
+- And you have budgeted [Budgeted] for the category
+- And from the previous months you rolled over [Rollover] amount
+- And have adjusted the category by [BudgetAdjustment]
+- Leaving you with a total amount allowed for this category this month of [FinalAllowance]
 
 In addition, you will see a second set as follows:
 
